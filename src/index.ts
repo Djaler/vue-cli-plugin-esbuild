@@ -11,6 +11,26 @@ const plugin: ServicePlugin = (api) => {
         const target = browserslist()
             .map(value => value.replace(/\s/g, ''));
 
+        const jsRule = config.module.rule('js').test(/\.m?jsx?$/);
+
+        jsRule.uses
+            .delete('thread-loader')
+            .delete('babel-loader');
+
+        jsRule.use('cache-loader')
+            .loader(require.resolve('cache-loader'))
+            .options(api.genCacheConfig('js-esbuild-loader', {
+                target,
+                esbuildLoaderVersion: require('esbuild-loader/package.json'),
+            }));
+
+        jsRule
+            .use('esbuild-loader')
+            .loader('esbuild-loader')
+            .options({
+                target,
+            });
+
         const tsRule = config.module.rules.get('ts');
 
         if (tsRule) {
@@ -34,28 +54,6 @@ const plugin: ServicePlugin = (api) => {
                 .options({
                     target,
                     loader: 'ts',
-                });
-        }
-
-        const jsRule = config.module.rules.get('js');
-
-        if (jsRule) {
-            jsRule.uses
-                .delete('thread-loader')
-                .delete('babel-loader');
-
-            jsRule.use('cache-loader')
-                .loader(require.resolve('cache-loader'))
-                .options(api.genCacheConfig('js-esbuild-loader', {
-                    target,
-                    esbuildLoaderVersion: require('esbuild-loader/package.json'),
-                }));
-
-            jsRule
-                .use('esbuild-loader')
-                .loader('esbuild-loader')
-                .options({
-                    target,
                 });
         }
 
