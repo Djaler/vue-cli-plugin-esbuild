@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/Djaler/vue-cli-plugin-esbuild/compare/v0.0.1...v0.0.2) (2021-03-07)
+
+
+### Bug Fixes
+
+* create js rule if it not exist ([5c49caf](https://github.com/Djaler/vue-cli-plugin-esbuild/commit/5c49caf55e0e4f45d9211333537ba44a8cc7c67b))
+
 ### 0.0.1 (2021-03-05)
 
 
