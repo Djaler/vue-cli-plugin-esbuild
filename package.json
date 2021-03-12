@@ -35,7 +35,7 @@
   "devDependencies": {
     "@djaler/eslint-config-typescript": "0.0.4",
     "@vue/cli-service": "4.5.11",
-    "clean-publish": "1.1.9",
+    "clean-publish": "2.1.0",
     "eslint": "7.21.0",
     "eslint-import-resolver-typescript": "2.4.0",
     "husky": "4.3.8",
