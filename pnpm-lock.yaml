@@ -2,7 +2,7 @@ dependencies:
   browserslist: 4.16.3
   esbuild-loader: 2.9.2
 devDependencies:
-  '@djaler/eslint-config-typescript': 0.0.4_eslint@7.21.0+typescript@4.2.3
+  '@djaler/eslint-config-typescript': 0.0.5_eslint@7.21.0+typescript@4.2.3
   '@vue/cli-service': 4.5.11_typescript@4.2.3
   clean-publish: 2.1.0
   eslint: 7.21.0
@@ -36,19 +36,19 @@ packages:
     dev: true
     resolution:
       integrity: sha512-4vrIhfJyfNf+lCtXC2ck1rKSzDwciqF7IWFhXXrSOUC2O5DrVp+w4c6ed4AllTxhTkUP5x2tYj41VaxdVMMRDw==
-  /@djaler/eslint-config-base/0.0.1_eslint@7.21.0:
+  /@djaler/eslint-config-base/0.0.2_eslint@7.21.0:
     dependencies:
       eslint-config-airbnb-base: 14.2.1_7c15dd0cfa14fe651ab374dc3d7ac180
       eslint-plugin-import: 2.22.1_eslint@7.21.0
-      eslint-plugin-simple-import-sort: 5.0.3_eslint@7.21.0
+      eslint-plugin-simple-import-sort: 7.0.0_eslint@7.21.0
     dev: true
     peerDependencies:
       eslint: '*'
     resolution:
-      integrity: sha512-l8tlfdcp6K9oZlMDR8GMuKWXke0PhRpjtU+JnyjGbRF7zKJV8dESxVNOsDNUL/dZKPGTYocLug9hrW6pI1LR0Q==
-  /@djaler/eslint-config-typescript/0.0.4_eslint@7.21.0+typescript@4.2.3:
+      integrity: sha512-tI8GvC+xVikz8Dlgb3quCWgv/bMxACiaYBtKJKj+QFddEY0eDxDuAABWwGD5XigC8mE64XV0NRZXFjIM2LSbzg==
+  /@djaler/eslint-config-typescript/0.0.5_eslint@7.21.0+typescript@4.2.3:
     dependencies:
-      '@djaler/eslint-config-base': 0.0.1_eslint@7.21.0
+      '@djaler/eslint-config-base': 0.0.2_eslint@7.21.0
       '@typescript-eslint/eslint-plugin': 4.16.1_eslint@7.21.0+typescript@4.2.3
       eslint-config-airbnb-typescript: 12.3.1_eslint@7.21.0+typescript@4.2.3
     dev: true
@@ -56,7 +56,7 @@ packages:
       eslint: '*'
       typescript: '*'
     resolution:
-      integrity: sha512-6MVhMzSmQhAHqyRuUxTQNWJOmiNYBaOxPxGsN1NFMoKO84TVyTskZDDonG7txhAwhA3bu4hh3CWIACm8KWp6Gw==
+      integrity: sha512-ewjmgayz2/gDclC87a7FF007QgPNdK6cBkDsDFqHiwIgv8scidKZey8WBwg9BCpFFUJarA10Oj9bhxC3LrulMg==
   /@eslint/eslintrc/0.4.0:
     dependencies:
       ajv: 6.12.6
@@ -2788,14 +2788,14 @@ packages:
       eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0
     resolution:
       integrity: sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==
-  /eslint-plugin-simple-import-sort/5.0.3_eslint@7.21.0:
+  /eslint-plugin-simple-import-sort/7.0.0_eslint@7.21.0:
     dependencies:
       eslint: 7.21.0
     dev: true
     peerDependencies:
       eslint: '>=5.0.0'
     resolution:
-      integrity: sha512-1rf3AWiHeWNCQdAq0iXNnlccnH1UDnelGgrPbjBBHE8d2hXVtOudcmy0vTF4hri3iJ0MKz8jBhmH6lJ0ZWZLHQ==
+      integrity: sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
   /eslint-scope/4.0.3:
     dependencies:
       esrecurse: 4.3.0
@@ -8372,7 +8372,7 @@ packages:
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
-  '@djaler/eslint-config-typescript': 0.0.4
+  '@djaler/eslint-config-typescript': 0.0.5
   '@vue/cli-service': 4.5.11
   browserslist: ^4.16.3
   clean-publish: 2.1.0
