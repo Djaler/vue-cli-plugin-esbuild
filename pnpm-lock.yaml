@@ -2,7 +2,7 @@ dependencies:
   browserslist: 4.16.3
   esbuild-loader: 2.10.0
 devDependencies:
-  '@djaler/conventional-changelog-standard': 1.1.0
+  '@djaler/conventional-changelog-standard': 1.2.0
   '@djaler/eslint-config-typescript': 0.0.5_eslint@7.21.0+typescript@4.2.3
   '@vue/cli-service': 4.5.11_typescript@4.2.3
   clean-publish: 2.1.0
@@ -48,13 +48,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-4vrIhfJyfNf+lCtXC2ck1rKSzDwciqF7IWFhXXrSOUC2O5DrVp+w4c6ed4AllTxhTkUP5x2tYj41VaxdVMMRDw==
-  /@djaler/conventional-changelog-standard/1.1.0:
+  /@djaler/conventional-changelog-standard/1.2.0:
     dependencies:
-      compare-func: 2.0.0
-      q: 1.5.1
+      conventional-changelog-conventionalcommits: 4.5.0
     dev: true
     resolution:
-      integrity: sha512-Yzpoa6HdulJqWZgP9yYOYzgaT36V6XJ5XKW2llPeQan3HXQd1EtjFfToG+Es/7Fn0Pl0R5ygey/XI2V4fBw9Ow==
+      integrity: sha512-plaBZA2EOOmjfic8OA+8zE/ebfLNchYF0pfD4UldOwaCVZyUYJ3syl3hO0c6eT9+ZZlvZ0EXbF6hTSmZz75ZGg==
   /@djaler/eslint-config-base/0.0.2_eslint@7.21.0:
     dependencies:
       eslint-config-airbnb-base: 14.2.1_7c15dd0cfa14fe651ab374dc3d7ac180
@@ -9711,7 +9710,7 @@ packages:
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
-  '@djaler/conventional-changelog-standard': 1.1.0
+  '@djaler/conventional-changelog-standard': 1.2.0
   '@djaler/eslint-config-typescript': 0.0.5
   '@vue/cli-service': 4.5.11
   browserslist: ^4.16.3
