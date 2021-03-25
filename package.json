@@ -18,7 +18,7 @@
     "lint:fix": "npm run lint -- --fix",
     "build": "tsc -p tsconfig.build.json",
     "prerelease": "npm run lint && npm run build",
-    "release": "standard-version",
+    "release": "standard-version --preset @djaler/standard",
     "publish": "npm run build && clean-publish"
   },
   "files": [
@@ -33,6 +33,7 @@
     "@vue/cli-service": "^4.0.0-0"
   },
   "devDependencies": {
+    "@djaler/conventional-changelog-standard": "1.1.0",
     "@djaler/eslint-config-typescript": "0.0.5",
     "@vue/cli-service": "4.5.11",
     "clean-publish": "2.1.0",
