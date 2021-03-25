@@ -1,13 +1,10 @@
 /* eslint-disable global-require */
 import { ServicePlugin } from '@vue/cli-service';
 import browserslist from 'browserslist';
-import { ESBuildMinifyPlugin, ESBuildPlugin } from 'esbuild-loader';
+import { ESBuildMinifyPlugin } from 'esbuild-loader';
 
 const plugin: ServicePlugin = (api) => {
     api.chainWebpack((config) => {
-        config.plugin('esbuild')
-            .use(ESBuildPlugin);
-
         const target = browserslist()
             .map(value => value.replace(/\s/g, ''));
 

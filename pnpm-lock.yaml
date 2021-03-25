@@ -1,6 +1,6 @@
 dependencies:
   browserslist: 4.16.3
-  esbuild-loader: 2.9.2
+  esbuild-loader: 2.10.0
 devDependencies:
   '@djaler/conventional-changelog-standard': 1.1.0
   '@djaler/eslint-config-typescript': 0.0.5_eslint@7.21.0+typescript@4.2.3
@@ -3115,25 +3115,25 @@ packages:
       node: '>= 0.4'
     resolution:
       integrity: sha512-QCOllgZJtaUo9miYBcLChTUaHNjJF3PYs1VidD7AwiEj1kYxKeQTctLAezAOH5ZKRH0g2IgPn6KwB4IT8iRpvA==
-  /esbuild-loader/2.9.2:
+  /esbuild-loader/2.10.0:
     dependencies:
-      esbuild: 0.8.55
+      esbuild: 0.9.7
       joycon: 2.2.5
       json5: 2.2.0
       loader-utils: 2.0.0
-      type-fest: 0.20.2
+      type-fest: 0.21.3
       webpack-sources: 2.2.0
     dev: false
     peerDependencies:
       webpack: ^4.40.0 || ^5.0.0
     resolution:
-      integrity: sha512-HpF+r/ES2aC40VDOIFsP8OIOM2y2vj8LyLwJ4G8DCMOi8Kov68TwCtxiMMTuSuxR/xKDu/ykgVyCEgps6BXpYw==
-  /esbuild/0.8.55:
+      integrity: sha512-BRWmc/7gU6/FmI+MP+E+9Zb/CE0BA1XMOQkdvJ7B/T2gad1Mlim8aMhvvRdS9on5S8JzkC+uNHGQmt/WmbbXbQ==
+  /esbuild/0.9.7:
     dev: false
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-mM/s7hjYe5mQR+zAWOM5JVrCtYCke182E9l1Bbs6rG5EDP3b1gZF9sHZka53PD/iNt6OccymVZRWkTtBfcKW4w==
+      integrity: sha512-VtUf6aQ89VTmMLKrWHYG50uByMF4JQlVysb8dmg6cOgW8JnFCipmz7p+HNBl+RR3LLCuBxFGVauAe2wfnF9bLg==
   /escalade/3.1.1:
     engines:
       node: '>=6'
@@ -8991,12 +8991,12 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-OIAYXk8+ISY+qTOwkHtKqzAuxchoMiD9Udx+FSGQDuiRR+PJKJHc2NJAXlbhkGwTt/4/nKZxELY1w3ReWOL8mw==
-  /type-fest/0.20.2:
+  /type-fest/0.21.3:
     dev: false
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
+      integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
   /type-fest/0.6.0:
     dev: true
     engines:
@@ -9716,7 +9716,7 @@ specifiers:
   browserslist: ^4.16.3
   clean-publish: 2.1.0
   conventional-github-releaser: 3.1.5
-  esbuild-loader: ^2.9.2
+  esbuild-loader: ^2.10.0
   eslint: 7.21.0
   eslint-import-resolver-typescript: 2.4.0
   husky: 4.3.8
