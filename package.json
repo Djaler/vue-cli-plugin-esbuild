@@ -19,6 +19,7 @@
     "build": "tsc -p tsconfig.build.json",
     "prerelease": "npm run lint && npm run build",
     "release": "standard-version --preset @djaler/standard",
+    "release:github": "conventional-github-releaser -p @djaler/standard",
     "publish": "npm run build && clean-publish"
   },
   "files": [
@@ -37,6 +38,7 @@
     "@djaler/eslint-config-typescript": "0.0.5",
     "@vue/cli-service": "4.5.11",
     "clean-publish": "2.1.0",
+    "conventional-github-releaser": "3.1.5",
     "eslint": "7.21.0",
     "eslint-import-resolver-typescript": "2.4.0",
     "husky": "4.3.8",
