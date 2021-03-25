@@ -37,3 +37,5 @@ jobs:
         run: npm run publish
       - name: Create github release
         run: npm run release:github
+        env:
+          CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
