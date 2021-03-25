@@ -18,7 +18,7 @@
     "lint:fix": "npm run lint -- --fix",
     "build": "tsc -p tsconfig.build.json",
     "prerelease": "npm run lint && npm run build",
-    "release": "pnpx standard-version",
+    "release": "standard-version",
     "publish": "npm run build && clean-publish"
   },
   "files": [
@@ -40,6 +40,7 @@
     "eslint-import-resolver-typescript": "2.4.0",
     "husky": "4.3.8",
     "lint-staged": "10.5.4",
+    "standard-version": "9.1.1",
     "typescript": "4.2.3"
   },
   "husky": {
