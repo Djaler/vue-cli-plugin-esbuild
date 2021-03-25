@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.3](https://github.com/Djaler/vue-cli-plugin-esbuild/compare/v0.0.2...v0.0.3) (2021-03-25)
+
+
+### Dependencies
+
+* update dependency esbuild-loader to 2.10.0 ([ec7a5e4](https://github.com/Djaler/vue-cli-plugin-esbuild/commit/ec7a5e4c510ddcbb9544396744a85509d739ef12))
+
+
+
 ### [0.0.2](https://github.com/Djaler/vue-cli-plugin-esbuild/compare/v0.0.1...v0.0.2) (2021-03-07)
 
 
