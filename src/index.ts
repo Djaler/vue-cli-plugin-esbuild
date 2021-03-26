@@ -32,7 +32,7 @@ function configureJs(jsRule: Config.Rule<Config.Module>, api: PluginAPI, target:
         .loader(require.resolve('cache-loader'))
         .options(api.genCacheConfig('js-esbuild-loader', {
             target,
-            esbuildLoaderVersion: require('esbuild-loader/package.json'),
+            esbuildLoaderVersion: require('esbuild-loader/package.json').version,
         }));
 
     jsRule
@@ -53,9 +53,9 @@ function configureTs(tsRule: Config.Rule<Config.Module>, api: PluginAPI, target:
         .loader(require.resolve('cache-loader'))
         .options(api.genCacheConfig('ts-esbuild-loader', {
             target,
-            esbuildLoaderVersion: require('esbuild-loader/package.json'),
+            esbuildLoaderVersion: require('esbuild-loader/package.json').version,
             // eslint-disable-next-line import/no-extraneous-dependencies
-            typescriptVersion: require('typescript/package.json'),
+            typescriptVersion: require('typescript/package.json').version,
         }, 'tsconfig.json'));
 
     tsRule
