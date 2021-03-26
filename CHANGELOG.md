@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.4](https://github.com/Djaler/vue-cli-plugin-esbuild/compare/v0.0.3...v0.0.4) (2021-03-26)
+
+
+### Bug Fixes
+
+* correctly get packages version to generate cache config ([f2574c4](https://github.com/Djaler/vue-cli-plugin-esbuild/commit/f2574c4eb90f2467cd52c1f2d598dd3c486759c2))
+
+
+
 ## [0.0.3](https://github.com/Djaler/vue-cli-plugin-esbuild/compare/v0.0.2...v0.0.3) (2021-03-25)
 
 
