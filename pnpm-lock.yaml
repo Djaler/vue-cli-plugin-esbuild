@@ -13,6 +13,7 @@ devDependencies:
   lint-staged: 10.5.4
   standard-version: 9.1.1
   typescript: 4.2.3
+  webpack-chain: 6.5.1
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.12.11:
@@ -9723,3 +9724,4 @@ specifiers:
   lint-staged: 10.5.4
   standard-version: 9.1.1
   typescript: 4.2.3
+  webpack-chain: 6.5.1

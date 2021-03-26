@@ -31,7 +31,8 @@
     "esbuild-loader": "^2.10.0"
   },
   "peerDependencies": {
-    "@vue/cli-service": "^4.0.0-0"
+    "@vue/cli-service": "^4.0.0-0",
+    "webpack-chain": "^6.4.0"
   },
   "devDependencies": {
     "@djaler/conventional-changelog-standard": "1.1.0",
@@ -44,7 +45,8 @@
     "husky": "4.3.8",
     "lint-staged": "10.5.4",
     "standard-version": "9.1.1",
-    "typescript": "4.2.3"
+    "typescript": "4.2.3",
+    "webpack-chain": "6.5.1"
   },
   "husky": {
     "hooks": {
