@@ -1,28 +1,5 @@
 {
   "extends": [
-    "config:base"
-  ],
-  "packageRules": [
-    {
-      "depTypeList": [
-        "dependencies"
-      ],
-      "semanticCommitType": "deps",
-      "semanticCommitScope": null
-    },
-    {
-      "depTypeList": [
-        "devDependencies"
-      ],
-      "semanticCommitType": "chore",
-      "semanticCommitScope": "deps"
-    },
-    {
-      "packageNames": [
-        "typescript"
-      ],
-      "semanticCommitType": "build",
-      "semanticCommitScope": "deps"
-    }
+    "github>djaler/renovate-config:js"
   ]
 }
