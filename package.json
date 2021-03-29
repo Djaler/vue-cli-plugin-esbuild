@@ -28,7 +28,9 @@
   "main": "./dist/index.js",
   "dependencies": {
     "browserslist": "^4.16.3",
-    "esbuild-loader": "^2.10.0"
+    "esbuild-loader": "^2.10.0",
+    "strip-comments": "2.0.1",
+    "ts-loader": "^6.0.1"
   },
   "peerDependencies": {
     "@vue/cli-service": "^4.0.0-0",
@@ -37,6 +39,8 @@
   "devDependencies": {
     "@djaler/conventional-changelog-standard": "1.1.0",
     "@djaler/eslint-config-typescript": "0.0.5",
+    "@types/strip-comments": "2.0.0",
+    "@types/webpack": "4.41.27",
     "@vue/cli-service": "4.5.11",
     "clean-publish": "2.1.0",
     "conventional-github-releaser": "3.1.5",
