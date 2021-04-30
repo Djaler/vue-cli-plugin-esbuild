@@ -5,7 +5,7 @@ specifiers:
   '@djaler/eslint-config-typescript': 0.0.5
   '@vue/cli-service': 4.5.11
   browserslist: ^4.16.3
-  clean-publish: 2.1.0
+  clean-publish: 2.2.0
   conventional-github-releaser: 3.1.5
   esbuild-loader: ^2.10.0
   eslint: 7.24.0
@@ -24,7 +24,7 @@ devDependencies:
   '@djaler/conventional-changelog-standard': 1.2.0
   '@djaler/eslint-config-typescript': 0.0.5_eslint@7.24.0+typescript@4.2.3
   '@vue/cli-service': 4.5.11_typescript@4.2.3
-  clean-publish: 2.1.0
+  clean-publish: 2.2.0
   conventional-github-releaser: 3.1.5
   eslint: 7.24.0
   eslint-import-resolver-typescript: 2.4.0_eslint@7.24.0
@@ -1650,8 +1650,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /clean-publish/2.1.0:
-    resolution: {integrity: sha512-F73wDX1bqmwU7zJQnERzCKLyz1eVxR15dD4GShfJO284rc5pIU6Mo2KAgj7OKLsDqyu6dHD47ZUm7JT2U3bhyQ==}
+  /clean-publish/2.2.0:
+    resolution: {integrity: sha512-U+/Y5YXbxnqWlh8y/toKSEGbMvIvsgfkfJ7yK0v0uQ1mz07lNNSxceY7XaFweEw8LFQo8Al3H7SuQHXbf5Xw8g==}
     engines: {node: ^10.17.0 || ^12.0.0 || >=14.0.0}
     hasBin: true
     dependencies:
