@@ -12,7 +12,7 @@ specifiers:
   eslint-import-resolver-typescript: 2.4.0
   husky: 4.3.8
   lint-staged: 10.5.4
-  standard-version: 9.1.1
+  standard-version: 9.3.0
   typescript: 4.2.3
   webpack-chain: 6.5.1
 
@@ -30,7 +30,7 @@ devDependencies:
   eslint-import-resolver-typescript: 2.4.0_eslint@7.26.0
   husky: 4.3.8
   lint-staged: 10.5.4
-  standard-version: 9.1.1
+  standard-version: 9.3.0
   typescript: 4.2.3
   webpack-chain: 6.5.1
 
@@ -7805,8 +7805,8 @@ packages:
     resolution: {integrity: sha512-GrdeshiRmS1YLMYgzF16olf2jJ/IzxXY9lhKOskuVziubpTYcYqyOwYeJKzQkwy7uN0fYSsbsC4RQaXf9LCrYA==}
     dev: true
 
-  /standard-version/9.1.1:
-    resolution: {integrity: sha512-PF9JnRauBwH7DAkmefYu1mB2Kx0MVG13udqDTFmDUiogbyikBAHBdMrVuauxtAb2YIkyZ3FMYCNv0hqUKMOPww==}
+  /standard-version/9.3.0:
+    resolution: {integrity: sha512-cYxxKXhYfI3S9+CA84HmrJa9B88H56V5FQ302iFF2TNwJukJCNoU8FgWt+11YtwKFXRkQQFpepC2QOF7aDq2Ow==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
