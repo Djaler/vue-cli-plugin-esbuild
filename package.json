@@ -31,13 +31,13 @@
     "esbuild-loader": "^2.10.0"
   },
   "peerDependencies": {
-    "@vue/cli-service": "^4.0.0-0",
+    "@vue/cli-service": "^4.0.0-0 || ^5.0.0",
     "webpack-chain": "^6.4.0"
   },
   "devDependencies": {
     "@djaler/conventional-changelog-standard": "1.2.0",
     "@djaler/eslint-config-typescript": "0.0.5",
-    "@vue/cli-service": "4.5.11",
+    "@vue/cli-service": "5.0.4",
     "clean-publish": "2.1.0",
     "conventional-github-releaser": "3.1.5",
     "eslint": "7.26.0",
